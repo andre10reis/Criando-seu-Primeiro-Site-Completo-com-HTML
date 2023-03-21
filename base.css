@@ -54,6 +54,6 @@ table tbody tr :nth-child(even) td {
     background-color: #f1f1f1 ;
 }
 table tbody tr :hover td{
-    background-color: blueviolet;
+    background-color: rgb(93, 9, 172);
     cursor: pointer;
 }
