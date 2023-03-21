@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Veterinária Pet Love</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+    table thead th {
+        background-color: black;
+        color: white;
+    }
+    table tfoot td {
+        background-color: lightgrey;
+    }
+    table tbody tr :nth-child(even) td {
+        background-color: #f1f1f1 ;
+    }
+    table tbody tr :hover td{
+        background-color: blueviolet;
+        cursor: pointer;
+    }
+    </style>
+  
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="http://127.0.0.1:5500/P%C3%A1ginaprincipal.html"><text><font color = "white">Página Principal</font></text></a></li></h3>
+                <h3><li><a href="http://127.0.0.1:5500/Sobreaclinica.html"><font color="white">Sobre a Clínica</font></a></li></h3>
+                <h3><li><a href="http://127.0.0.1:5500/contato.html"><font color="white">Contato</font></a></li></h3>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="data:image/jpeg;base64,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" width="300"/>
+            </div>
+    
+            <div class="content">
+              
+                
+                <h1>Serviços da Clínica Veterinária Pet Love</h1> 
+                <p><b>A Clínica Veterinária Pet Love</b> oferece todos os serviços necessários à preservação da saúde  de pequenos animais.  Disponibilizamos desde a primeira consulta de orientações à "família de primeira viagem" sobre cuidados com o filhote, até internações de pacientes críticos e cirurgias complexas, com pós-operatório monitorado.<sup>1</sup></p>
+                
+                <p><u>As consultas de clínica médica são realizadas por ordem de chegada. Contamos com uma equipe de médicos veterinários pós-graduados,  mestres e doutores, nas mais diversas áreas de atuação para atender seu animal.</u></p>
+                
+                <p><strong> Oferecemos exames de suporte ao diagnóstico, através do nosso laboratório de análises clínicas, além dos serviços de aferição de pressão arterial, radiologia, ultrassonografia e eletrocardiografia.</strong></p>
+
+                <table  width="550" border="1" align="center">
+                    <tr>
+                        <th>Serviços</th>
+                        <th>Horário do Serviços</th>
+                        <th>Preço</th>
+                    </tr>
+                    <tr>
+                        <td>Consultas</td>
+                        <td>Seg-Sex 08hrs - 19hrs</td>
+                        <td>50R$ - 200R$</td>
+                    </tr>
+                    <tr>
+                        <td>Aferição de pressão</td>
+                        <td>Todos os dias 24hrs</td>
+                        <td>100R$</td>
+                    </tr>
+                    <tr>
+                        <td>ultrassonografia</td>
+                        <td>Seg-Sex 08hrs-19hrs</td>
+                        <td>200R$</td>
+                    </tr>
+                    <tr>
+                        <td>Radiologia</td>
+                        <td>Todos os dias 24hrs</td>
+                        <td>150R$</td>
+                    </tr>
+                    <tr>
+                        <td>Eletrocardiografia</td>
+                        <td>Seg-Sex 08hrs-19hrs</td>
+                        <td>400R$</td>
+                    </tr>    
+
+
+                </table>
+            </div>
+    
+            <div class="footer">
+                <h3><font color="white" >Contato 55+ (031) 991234-5678</font></h3>
+                <h3><font color = "white"><p>petlove@miau.com.br</p></font></h3>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
